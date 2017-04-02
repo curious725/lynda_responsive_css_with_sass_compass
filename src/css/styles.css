@@ -185,24 +185,38 @@ p {
 .layout .primary #nextmeeting a {
   color: #0A2933;
 }
+@media (min-width: 47em) {
+  /* line 44, ../components/sass/_layout.scss */
+  .layout .secondary {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+    font-size: 1.1rem;
+  }
+  /* line 48, ../components/sass/_layout.scss */
+  .layout .secondary h1 {
+    font-size: 1.8rem;
+    color: #BD3613;
+  }
+}
 
-/* line 53, ../components/sass/_layout.scss */
+/* line 60, ../components/sass/_layout.scss */
 header img {
   width: 95%;
   margin: 2.5%;
   max-width: 500px;
 }
 
-/* line 61, ../components/sass/_layout.scss */
+/* line 68, ../components/sass/_layout.scss */
 .navigation {
   background: #175c73;
 }
-/* line 65, ../components/sass/_layout.scss */
+/* line 72, ../components/sass/_layout.scss */
 .navigation ul.nav li i {
   color: #f7b71a;
   padding-right: .5em;
 }
-/* line 70, ../components/sass/_layout.scss */
+/* line 77, ../components/sass/_layout.scss */
 .navigation ul.nav li a {
   display: block;
   text-decoration: none;
@@ -210,7 +224,7 @@ header img {
   color: #FCF4DC;
 }
 
-/* line 83, ../components/sass/_layout.scss */
+/* line 90, ../components/sass/_layout.scss */
 footer {
   color: #EAE3CB;
   background: #0d3340;

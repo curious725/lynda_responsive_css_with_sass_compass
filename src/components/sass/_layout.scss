@@ -40,9 +40,16 @@ $large                          : 75em;
         color: $darkblue;
       }
     }
-
-    
-
+  }
+  .secondary {
+    @include at-breakpoint($medium) {
+      @include span-columns(4 omega, 12);
+      font-size: 1.1rem;
+      h1 {
+        font-size: 1.8rem;
+        color: $orange;
+      }
+    }
   }
 }
 
