@@ -109,7 +109,7 @@ h3 {
 /* line 39, ../components/sass/_base.scss */
 a {
   text-decoration: underline;
-  color: mediumgray;
+  color: #536870;
 }
 /* line 43, ../components/sass/_base.scss */
 a:hover {
@@ -186,23 +186,23 @@ p {
   color: #0A2933;
 }
 
-/* line 51, ../components/sass/_layout.scss */
+/* line 53, ../components/sass/_layout.scss */
 header img {
   width: 95%;
   margin: 2.5%;
   max-width: 500px;
 }
 
-/* line 59, ../components/sass/_layout.scss */
+/* line 61, ../components/sass/_layout.scss */
 .navigation {
   background: #175c73;
 }
-/* line 63, ../components/sass/_layout.scss */
+/* line 65, ../components/sass/_layout.scss */
 .navigation ul.nav li i {
   color: #f7b71a;
   padding-right: .5em;
 }
-/* line 68, ../components/sass/_layout.scss */
+/* line 70, ../components/sass/_layout.scss */
 .navigation ul.nav li a {
   display: block;
   text-decoration: none;
@@ -210,7 +210,7 @@ header img {
   color: #FCF4DC;
 }
 
-/* line 81, ../components/sass/_layout.scss */
+/* line 83, ../components/sass/_layout.scss */
 footer {
   color: #EAE3CB;
   background: #0d3340;
