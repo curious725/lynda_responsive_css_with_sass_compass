@@ -1,5 +1,6 @@
 module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.initConfig({
     uglify: {
@@ -8,7 +9,14 @@ module.exports = function(grunt) {
           'src/js/script.js': ['src/components/js/*.js'],
         } // files
       } //my_target
-    } // uglify
+    }, // uglify
+
+    watch: {
+      files: ['src/components/js/*.js'],
+      tasks: ['uglify'],
+    }
   }) // initConfig
+
+  grunt.registerTask('default', 'watch');
 
 } // exports
