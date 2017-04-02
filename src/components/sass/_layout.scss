@@ -9,9 +9,39 @@ $grid-padding                   : $gutter-width;
 $small                          : 30em;
 $medium                         : 47em;
 $large                          : 75em;
-// layout --------------
+
+// content ------------
 .layout {
+  @include container;
+
   padding: 3%;
+
+  .primary {
+    margin-top: .2em;
+    @include at-breakpoint($medium) {
+      @include span-columns(8,12);
+    }
+
+    #nextmeeting {
+      @include border-radius(20px);
+      color: $paleyellow;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      padding: 0 20px 20px 20px;
+      background: $cyan;
+
+      h1 {
+        color: darken($cyan, 15);
+        border: none;
+        text-shadow: none;
+        margin-bottom: 20px;
+      }
+      a {
+        color: $darkblue;
+      }
+    }
+
+  }
 }
 
 
