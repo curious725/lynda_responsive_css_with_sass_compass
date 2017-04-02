@@ -134,6 +134,23 @@ header img {
   max-width: 500px;
 }
 
+/* line 12, ../components/sass/_layout.scss */
+.navigation {
+  background: #175c73;
+}
+/* line 16, ../components/sass/_layout.scss */
+.navigation ul.nav li i {
+  color: #f7b71a;
+  padding-right: .5em;
+}
+/* line 21, ../components/sass/_layout.scss */
+.navigation ul.nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #FCF4DC;
+}
+
 /* line 3, ../components/sass/_modules.scss */
 .speakers .artist {
   overflow: hidden;

@@ -8,3 +8,23 @@ header {
   }
 }
  
+// navigation -----------
+.navigation {
+  background: lighten($darkblue, 15);
+  ul.nav {
+    li {
+      i {
+        color: lighten($yellow, 20);
+        padding-right: .5em;
+      }
+
+      a {
+        display: block;
+        text-decoration: none;
+        padding: 5px 10px;
+        color: $paleryellow;
+      }
+
+    }
+  }
+}
