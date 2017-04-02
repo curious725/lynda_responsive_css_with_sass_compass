@@ -73,3 +73,10 @@ body {
   background: #EAE3CB;
   color: #0A2933;
 }
+
+/* line 11, ../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bree Serif, serif;
+  font-weight: normal;
+  color: #475B62;
+}

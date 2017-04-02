@@ -8,4 +8,8 @@ body {
   color: $darkblue;
 }
 
-
+#{headings()} {
+  font-family: $font-secondary;
+  font-weight: normal;
+  color: $darkgray;
+}
