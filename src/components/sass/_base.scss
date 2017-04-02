@@ -35,4 +35,12 @@ h3 {
   line-height: 60%;
   color: $orange;
 }
-       
+
+a {
+  text-decoration: underline;
+  color: mediumgray;
+      
+    &:hover {
+      color: $orange;
+    }
+}

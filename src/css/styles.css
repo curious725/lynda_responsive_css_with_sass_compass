@@ -105,3 +105,13 @@ h3 {
   line-height: 60%;
   color: #BD3613;
 }
+
+/* line 39, ../components/sass/_base.scss */
+a {
+  text-decoration: underline;
+  color: mediumgray;
+}
+/* line 43, ../components/sass/_base.scss */
+a:hover {
+  color: #BD3613;
+}
