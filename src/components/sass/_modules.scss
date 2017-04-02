@@ -11,6 +11,7 @@
     }
 
     img {
+      @include border-radius();
       width: 120px;
       float: left;
       margin: {
@@ -21,9 +22,10 @@
   } // artist
 }
 
+// next meeting --------------------
 #nextmeeting {
   @include clearfix;
-  
+
   img {
     width: 30%;
     max-width: 130px;
