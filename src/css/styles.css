@@ -127,6 +127,11 @@ p {
   color: #2176C7;
 }
 
+/* line 3, ../components/sass/_modules.scss */
+.speakers .artist {
+  overflow: hidden;
+  *zoom: 1;
+}
 /* line 6, ../components/sass/_modules.scss */
 .speakers .artist h3 {
   padding-top: 10px;

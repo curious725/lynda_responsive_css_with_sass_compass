@@ -1,7 +1,7 @@
  // Speakers --------------
 .speakers{
   .artist {
-    
+    @include clearfix;
 
     h3 {
       padding-top: 10px;
