@@ -12,8 +12,20 @@ module.exports = function(grunt) {
     }, // uglify
 
     watch: {
-      files: ['src/components/js/*.js'],
-      tasks: ['uglify'],
+      options: { 
+        livereload: {
+          host: 'localhost',
+          port: 9000,
+        }
+      }, // options
+      scripts: {
+        files: ['src/components/js/*.js'],
+        tasks: ['uglify'],
+      }, // scripts
+      html: {
+        files: ['*html']
+      }
+
     }
   }) // initConfig
 
