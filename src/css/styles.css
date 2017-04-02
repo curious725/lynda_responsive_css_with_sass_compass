@@ -206,17 +206,38 @@ header img {
   margin: 2.5%;
   max-width: 500px;
 }
+/* line 66, ../components/sass/_layout.scss */
+header .hero {
+  width: 100%;
+}
+@media (min-width: 47em) {
+  /* line 66, ../components/sass/_layout.scss */
+  header .hero {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 450px;
+    background: url('../../images/misc/helper.jpg?1378479912');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+  }
+}
 
-/* line 68, ../components/sass/_layout.scss */
+/* line 87, ../components/sass/_layout.scss */
 .navigation {
   background: #175c73;
 }
-/* line 72, ../components/sass/_layout.scss */
+/* line 91, ../components/sass/_layout.scss */
 .navigation ul.nav li i {
   color: #f7b71a;
   padding-right: .5em;
 }
-/* line 77, ../components/sass/_layout.scss */
+/* line 96, ../components/sass/_layout.scss */
 .navigation ul.nav li a {
   display: block;
   text-decoration: none;
@@ -224,7 +245,7 @@ header img {
   color: #FCF4DC;
 }
 
-/* line 90, ../components/sass/_layout.scss */
+/* line 109, ../components/sass/_layout.scss */
 footer {
   color: #EAE3CB;
   background: #0d3340;
