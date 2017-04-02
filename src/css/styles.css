@@ -163,20 +163,25 @@ p {
   margin-right: 3%;
 }
 
-/* line 39, ../components/sass/_modules.scss */
+/* line 38, ../components/sass/_modules.scss */
+.socialmediaidcons {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 41, ../components/sass/_modules.scss */
 .socialmediaidcons .title {
   float: left;
 }
-/* line 43, ../components/sass/_modules.scss */
+/* line 45, ../components/sass/_modules.scss */
 .socialmediaidcons ul {
   float: left;
 }
-/* line 45, ../components/sass/_modules.scss */
+/* line 47, ../components/sass/_modules.scss */
 .socialmediaidcons ul li {
   display: inline-block;
   margin-left: 5px;
 }
-/* line 48, ../components/sass/_modules.scss */
+/* line 50, ../components/sass/_modules.scss */
 .socialmediaidcons ul li img {
   width: 30px;
   -moz-border-radius: 50%;

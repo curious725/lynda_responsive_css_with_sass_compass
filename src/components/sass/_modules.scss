@@ -36,6 +36,8 @@
 
 // social media icons -----------------
 .socialmediaidcons {
+  @include clearfix;
+  
   .title {
     float: left;
   }
