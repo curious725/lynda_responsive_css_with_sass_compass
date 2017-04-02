@@ -126,3 +126,18 @@ p {
   font-size: 1rem;
   color: #2176C7;
 }
+
+/* line 6, ../components/sass/_modules.scss */
+.speakers .artist h3 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #819090;
+  margin-bottom: 5px;
+}
+/* line 13, ../components/sass/_modules.scss */
+.speakers .artist img {
+  width: 120px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
