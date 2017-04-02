@@ -127,28 +127,35 @@ p {
   color: #2176C7;
 }
 
-/* line 7, ../components/sass/_layout.scss */
+/* line 21, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 13, ../components/sass/_layout.scss */
 .layout {
   padding: 3%;
 }
 
-/* line 15, ../components/sass/_layout.scss */
+/* line 21, ../components/sass/_layout.scss */
 header img {
   width: 95%;
   margin: 2.5%;
   max-width: 500px;
 }
 
-/* line 23, ../components/sass/_layout.scss */
+/* line 29, ../components/sass/_layout.scss */
 .navigation {
   background: #175c73;
 }
-/* line 27, ../components/sass/_layout.scss */
+/* line 33, ../components/sass/_layout.scss */
 .navigation ul.nav li i {
   color: #f7b71a;
   padding-right: .5em;
 }
-/* line 32, ../components/sass/_layout.scss */
+/* line 38, ../components/sass/_layout.scss */
 .navigation ul.nav li a {
   display: block;
   text-decoration: none;
@@ -156,7 +163,7 @@ header img {
   color: #FCF4DC;
 }
 
-/* line 45, ../components/sass/_layout.scss */
+/* line 51, ../components/sass/_layout.scss */
 footer {
   color: #EAE3CB;
   background: #0d3340;
