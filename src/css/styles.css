@@ -67,6 +67,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 3, ../components/sass/_base.scss */
 body {
+  font-family: Merriweather, serif;
+  font-size: 1.2rem;
+  line-height: 160%;
   background: #EAE3CB;
   color: #0A2933;
 }

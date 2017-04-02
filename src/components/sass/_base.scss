@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 body {
+  font-family: $font-primary;
+  font-size: 1.2rem;
+  line-height: 160%;
   background: $paleyellow;
   color: $darkblue;
 }
