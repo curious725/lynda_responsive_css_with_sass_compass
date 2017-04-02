@@ -115,3 +115,14 @@ a {
 a:hover {
   color: #BD3613;
 }
+
+/* line 48, ../components/sass/_base.scss */
+p {
+  margin-bottom: 10px;
+}
+
+/* line 52, ../components/sass/_base.scss */
+.small {
+  font-size: 1rem;
+  color: #2176C7;
+}
