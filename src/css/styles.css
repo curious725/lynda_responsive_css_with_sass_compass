@@ -151,6 +151,15 @@ header img {
   color: #FCF4DC;
 }
 
+/* line 34, ../components/sass/_layout.scss */
+footer {
+  color: #EAE3CB;
+  background: #0d3340;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
 /* line 3, ../components/sass/_modules.scss */
 .speakers .artist {
   overflow: hidden;
