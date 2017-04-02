@@ -33,3 +33,23 @@
     margin-right: 3%;
   }
 }
+
+// social media icons -----------------
+.socialmediaidcons {
+  .title {
+    float: left;
+  }
+
+  ul {
+    float: left;
+    li {
+      display: inline-block;
+      margin-left: 5px;
+      img {
+        width: 30px;
+        @include border-radius(50%);
+      }
+    }
+  }
+
+}

@@ -162,3 +162,24 @@ p {
   float: left;
   margin-right: 3%;
 }
+
+/* line 39, ../components/sass/_modules.scss */
+.socialmediaidcons .title {
+  float: left;
+}
+/* line 43, ../components/sass/_modules.scss */
+.socialmediaidcons ul {
+  float: left;
+}
+/* line 45, ../components/sass/_modules.scss */
+.socialmediaidcons ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+/* line 48, ../components/sass/_modules.scss */
+.socialmediaidcons ul li img {
+  width: 30px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
