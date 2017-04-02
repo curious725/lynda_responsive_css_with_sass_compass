@@ -127,6 +127,13 @@ p {
   color: #2176C7;
 }
 
+/* line 4, ../components/sass/_layout.scss */
+header img {
+  width: 95%;
+  margin: 2.5%;
+  max-width: 500px;
+}
+
 /* line 3, ../components/sass/_modules.scss */
 .speakers .artist {
   overflow: hidden;
