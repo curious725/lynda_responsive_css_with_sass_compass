@@ -1,6 +1,6 @@
 {
     "name": "lynda_responsive_css_with_sass_compass",
-    "version": 0.0.1,
+    "version": "0.0.1",
     "dependencies" : {
         "grunt": "~0.4.1",
         "grunt-contrib-watch": "~0.5.3",
