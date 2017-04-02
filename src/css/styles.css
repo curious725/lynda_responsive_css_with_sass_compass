@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather");
 /* line 5, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -63,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 1, ../components/sass/_base.scss */
+/* line 3, ../components/sass/_base.scss */
 body {
   background: #EAE3CB;
   color: #0A2933;
