@@ -1,3 +1,8 @@
+// susy setup ------------
+$total-columns                  : 12;
+$column-width                   : 4em;
+$gutter-width                   : 1em;
+$grid-padding                   : $gutter-width;
 // layout --------------
 .layout {
   padding: 3%;

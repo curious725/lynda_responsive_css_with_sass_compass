@@ -127,28 +127,28 @@ p {
   color: #2176C7;
 }
 
-/* line 2, ../components/sass/_layout.scss */
+/* line 7, ../components/sass/_layout.scss */
 .layout {
   padding: 3%;
 }
 
-/* line 10, ../components/sass/_layout.scss */
+/* line 15, ../components/sass/_layout.scss */
 header img {
   width: 95%;
   margin: 2.5%;
   max-width: 500px;
 }
 
-/* line 18, ../components/sass/_layout.scss */
+/* line 23, ../components/sass/_layout.scss */
 .navigation {
   background: #175c73;
 }
-/* line 22, ../components/sass/_layout.scss */
+/* line 27, ../components/sass/_layout.scss */
 .navigation ul.nav li i {
   color: #f7b71a;
   padding-right: .5em;
 }
-/* line 27, ../components/sass/_layout.scss */
+/* line 32, ../components/sass/_layout.scss */
 .navigation ul.nav li a {
   display: block;
   text-decoration: none;
@@ -156,7 +156,7 @@ header img {
   color: #FCF4DC;
 }
 
-/* line 40, ../components/sass/_layout.scss */
+/* line 45, ../components/sass/_layout.scss */
 footer {
   color: #EAE3CB;
   background: #0d3340;
